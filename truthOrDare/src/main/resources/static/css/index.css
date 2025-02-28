@@ -1,0 +1,63 @@
+body {
+    background-color: #0A0F1F; /* Dark background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.player {
+    font-weight: bold;
+    color: white;
+}
+
+.next-player {
+    padding: 10px 20px;
+    border: 2px solid blue;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+.truth, .dare {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+.truth {
+    border-color: green;
+}
+
+.dare {
+    border-color: red;
+}
